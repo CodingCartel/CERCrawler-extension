@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "CER Crawler",
+    "version": "1.0.0",
+
+    "default_locale": "fr",
+    "description": "Une application servant au partage des sites intéressants pour la rédaction des CER.",
+
+    "author": "Coding Cartel"
+}
