@@ -1,0 +1,8 @@
+**/build
+
+**/.husky
+**/.git
+**/node_modules
+
+# Any file at root will be ignored by prettier
+/*.*

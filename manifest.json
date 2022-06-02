@@ -1,29 +1,29 @@
 {
-    "manifest_version": 3,
-    "name": "CER Crawler",
-    "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "CER Crawler",
+  "version": "1.0.0",
 
-    "description": "Une application servant au partage des sites intéressants pour la rédaction des CER.",
+  "description": "Une application servant au partage des sites intéressants pour la rédaction des CER.",
 
-    "author": "Coding Cartel",
+  "author": "Coding Cartel",
 
-    "icons": { 
-      "16": "public/static/img/logo_carre_16.png",
-      "48": "public/static/img/logo_carre_48.png",
-     "128": "public/static/img/logo_carre_128.png" 
-    },
+  "icons": {
+    "16": "public/static/img/logo_carre_16.png",
+    "48": "public/static/img/logo_carre_48.png",
+    "128": "public/static/img/logo_carre_128.png"
+  },
 
-    "permissions": ["storage"],
-    "background": {
-      "service_worker": "build/background.js"
-    },
-    "action": {
-      "default_popup": "public/index.html"
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://*/*"],
-        "js": ["build/injection.js"]
-      }
-    ]
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "build/background.js"
+  },
+  "action": {
+    "default_popup": "public/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["build/injection.js"]
+    }
+  ]
 }

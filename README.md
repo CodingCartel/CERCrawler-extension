@@ -1,3 +1,25 @@
+# Get configured first
+
+Run the following command:
+
+```
+npm install
+```
+
+# Aside
+
+In order to apply conventions, easily integrate with the workflow and avoid fighting against husky (which enforces rules to commit), the upcoming parts are highly recommended for you to install.
+
+## ESLint
+
+It is highly recommended to install ESLint into your IDE. For example, VS Code has "ESLint" extension to help you.
+You can also lint your files through command line (`npm run lint_fix`) but it will be more cumbersome.
+
+## Prettier
+
+It is highly recommended to install Prettier into your IDE. For example, VS Code has "Prettier - Code formatter" extension to help you.
+You can also prettify your files through command line (`npm run prettify_fix`) but it will be more cumbersome.
+
 ## Get started
 
 Install the dependencies...
