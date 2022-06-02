@@ -10,6 +10,8 @@
 </script>
 
 <main>
-  Image URL: <input type="text" bind:value={image} />
-  <button on:click={change}>Change</button>
+  <div>
+    Image URL: <input type="text" bind:value={image} />
+    <button on:click={change}>Change</button>
+  </div>
 </main>

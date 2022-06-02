@@ -15,7 +15,7 @@
 
   "permissions": ["storage"],
   "background": {
-    "service_worker": "build/background.js"
+    "service_worker": "public/build/background.js"
   },
   "action": {
     "default_popup": "public/index.html"
@@ -23,7 +23,7 @@
   "content_scripts": [
     {
       "matches": ["https://*/*"],
-      "js": ["build/injection.js"]
+      "js": ["public/build/injection.js"]
     }
   ]
 }
